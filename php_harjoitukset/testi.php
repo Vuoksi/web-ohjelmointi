@@ -14,5 +14,14 @@
     }
     echo "</ul>";
     ?>
+    <?php
+    $tervehdys = "Tervetuloa PHP:n maailmaan!";
+    $kerrat = 5;
+    $i = 0;
+    while ($i < $kerrat) {
+        echo "<p>" . $tervehdys . "</p>";
+        $i++;
+    }
+    ?>
   </body>
 </html>
