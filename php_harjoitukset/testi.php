@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Ensimmäinen PHP-sivu</title>
+    <meta charset="UTF-8">
   </head>
   <body>
     <p>Vuorokaudessa on <?php echo 24 * 60 * 60; ?> sekuntia.</p>
