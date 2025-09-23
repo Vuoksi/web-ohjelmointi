@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Lomakeharjoitus</h2>
+
+<form action="/lemmikkilomake.html">
+  <label for="fname">Lemmikin nimi:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="synde">Lemmikin Syntymäaika:</label><br>
+  <input type="date" id="synde" name="synde">
+
+<p>Lemmikin eläinlaji:</p>
+
+<input type="radio" id="kissa" name="nimi" value="kissa">
+<label for="kissa">Kissa</label><br>
+<input type ="radio" id="koira" name="nimi" value="koira">
+<label for="koira">Koira</label><br>
+<input type="radio" id="hamsteri" name="nimi" value="hamsteri">
+<label for="hamsteri">Hamsteri</label><br>
+<input type="radio" id="kaarme" name="nimi" value="kaarme">
+<label for="kaarme">Käärme</label>
+
+<p>Lemmikin lempiasiat:</p>
+
+<input type="checkbox" id="nukkuminen" name="nimi" value="nukkuminen">
+<label for="nukkuminen">Nukkuminen</label><br>
+<input type="checkbox" id="ruoka" name="nimi" value="ruoka">
+<label for="ruoka">Ruoka</label><br>
+<input type="checkbox" id="leikkiminen" name="nimi" value="leikkiminen">
+<label for="leikkiminen">Leikkiminen</label><br>
+<input type="checkbox" id="juokseminen" name="nimi" value="juokseminen">
+<label for="juokseminen">Juokseminen</label>
+
+<p>Lemmikin väri:</p>
+
+<label for="vari">Valitse väri:</label>
+<input type="color" id="vari" name="nimi" value="vari">
+
+<p>Lemmikin varusteet</p>
+
+<label for="varusteet">Varusteet:</label>
+<select id="varusteet" name="varusteet" size="4" multiple>
+<option value="panta">Panta</option><br>
+<option value="hihna">Hihna</option><br>
+<option value="kuljetuslaatikko">Kuljetuslaatikko</option><br>
+<option value="lelut">Lelut</option>
+</select>
+<p>
+<input type="submit" value="Lähetä">
+<input type="reset" value="Resetoi">
+</p>
+</form>
+
+
+</body>
+</html>
+

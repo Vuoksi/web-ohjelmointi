@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lemmikkisivu</title>
+</head>
+<body>
+
+<h2>HTML lomakeharjoitus</h2>
+
+<form>
+  <label for="petname">Lemmikin nimi:</label><br>
+  <input type="text" id="petname" name="petname"><br>
+  <label for="petbday">Lemmikin syntymäaika</label><br>
+  <input type="date" id="petbday" name="petbday">
+
+
+<p>Lemmikin eläinlaji:</p>
+
+
+  <input type="radio" id="kissa" name="pettype" value="kissa">
+  <label for="kissa">Kissa</label><br>
+  <input type="radio" id="koira" name="pettype" value="koira">
+  <label for="koira">Koira</label><br>
+  <input type="radio" id="hamsteri" name="pettype" value="hamsteri">
+  <label for="hamsteri">Hamsteri</label><br>
+  <input type="radio" id="hamsteri" name="pettype" value="hamsteri">
+  <label for="hamsteri">Hamsteri</label><br>
+  <input type="radio" id="kaarme" name="pettype" value="kaarme">
+  <label for="kaarme">Käärme</label>
+</form>
+
+<p>Lemmikin lempiasiat:</p>
+
+
+  <input type="checkbox" id="sleep" name="sleep" value="sleep">
+  <label for="sleep">Nukkuminen</label><br>
+  <input type="checkbox" id="food" name="food" value="food">
+  <label for="food">Ruoka</label><br>
+  <input type="checkbox" id="play" name="play" value="play">
+  <label for="play">Leikkiminen</label><br>
+  <input type="checkbox" id="run" name="run" value="run">
+  <label for="run">Juokseminen</label>
+
+  <p>Lemmikin väri:</p>
+  <label for="favcolor">Valitse väri:</label>
+  <input type="color" id="favcolor" name="favcolor">
+
+  <p>Lemmikin varusteet:</p>
+  <label for="gear">Varusteet:</label>
+  <select id="gear" name="gear" size="4" multiple>
+    <option value="panta">Panta</option>
+    <option value="hihna">Hihna</option>
+    <option value="kuljetuslaatikko">Kuljetuslaatikko</option>
+    <option value="lelut">Lelut</option>
+  </select>
+
+<p>
+  <input type="submit" value="Lähetä">
+  <input type="reset" value="Resetoi">
+</p>
+</form>
+</body>
+</html>
